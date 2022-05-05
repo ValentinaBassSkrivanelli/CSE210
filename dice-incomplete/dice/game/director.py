@@ -38,13 +38,7 @@ class Director:
             self.get_inputs()
             self.do_updates()
             self.do_outputs()
-    def cube_numbers(self):
-        
-    """A small cube with a different number of spots on each of its six sides."""
-    """Attributes:
-        value (int): The number of spots on the side facing up.
-        
-        points (int): The number of points the die is worth."""
+    
     
     def get_inputs(self):
         """Ask the user if they want to roll.
