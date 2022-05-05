@@ -1,7 +1,7 @@
 import random
 
 
-class Die:
+class die:
     """A small cube with a different number of spots on each of its six sides.
 
     The responsibility of Die is to keep track of the side facing up and calculate the points for 
