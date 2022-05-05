@@ -34,3 +34,4 @@ class Die:
     def roll(self): 
         self.value = random.randint(1,6)
         self.points = 100 if self.value == 1 else 50 if self.value == 5 else 0
+        
