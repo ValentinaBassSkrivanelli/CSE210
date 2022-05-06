@@ -19,7 +19,7 @@ class Director:
         Args:
             self (Director): an instance of Director.
         """
-        self.dice = []
+        self.dice = [] 
         self.is_playing = True
         self.score = 0
         self.total_score = 0
