@@ -1,5 +1,5 @@
 """
-class Crupier:
+class Director:
 
 def __init__(self):
     # (Start the score with 300 points.
@@ -10,32 +10,35 @@ def __init__(self):
     self.score = 300
     self.total_score = 0
 
+
+
 def start_game(self):
         # This function will call all the functions if is_playing == True)
 
-        while self.is_playing:      
+        while self.is_playing:   
+
             self.get_inputs()           
             self.calculate() 
+
 """
-"""def show card():
+"""def show_card():
     #(This function will call the Cards class and will show a random card 
     # between 1 to 13)
       
-    give_number = Cards()   
+    give_number = Croupier()   
 
 def get_inputs(self):
     # This function will ask if the next card is higher or 
     # lower and it recieves an user's input (H or L))
 
+    croupier = Croupier()
+    first_card = croupier.give_number()
+    print(f"This is the card {firs_card}")
 
     play_card = input("Higher or Lower [h/l] ")
         
 """
 """
-
-def show_newcard():         
-        #This function will call the Cards class and will show a random card 
-        # between 1 to 13)
         
 
 def calculate():
@@ -49,12 +52,13 @@ def show_score():
     # This function will show the total score adding the points recieved in calculate 
     # function with the points in start score
 
+
 def try_again():
     #Ask the users if they want to play again if answer is Y the game will run again. 
     #If answer is N print in the screen "Game Over" 
+    
 
-
-class Cards:
+class Croupier:
     #
     #
 
