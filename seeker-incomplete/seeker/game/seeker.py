@@ -38,6 +38,7 @@ class Seeker:
             location (int): The given location.
             
         """
+        self._location = location
 
 
    
